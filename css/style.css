@@ -78,7 +78,7 @@ a{
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 .header .container .content{
     display: flex;
@@ -86,9 +86,33 @@ a{
     justify-content: flex-start;
 }
 
-.header .container img, p{
+.header, .section, .footer{
+    display: flex;
+    flex: 1;
+}
+
+.header .container img{
     width: 450px;
-    height: auto;
+    height: 300px;
+}
+.header .container p{
+    width: 450px;
+    height: 124px;
+}
+
+
+.footer{
+    color: #e5e7eb;
+
+}
+
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    background-color: #1f2937;
+    margin-top: 180px;
+    
 }
 
 h1{
